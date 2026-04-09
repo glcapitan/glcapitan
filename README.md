@@ -1,4 +1,4 @@
-## Hi there, I'm Glenn 👋
+## Hi there, I'm Erwin Glenn 👋
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=700&lines=Data+Analyst+|+Business+Intelligence+Analyst;SQL+%7C+Power+BI+%7C+Excel;Business+Intelligence+%7C+Data+Warehousing;Turning+raw+data+into+clear+business+insight" alt="Typing SVG" />
