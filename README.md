@@ -1,60 +1,103 @@
-## Hi there, I'm [Glenn] 👋
+## Hi there, I'm Glenn 👋
 
 <div align="center">
-  <!--  You can customize the typing text in the "lines=" section of the URL below -->
-  <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Business+Intelligence;Turning+Data+into+Actionable+Insights;[SQL+Power BI+Excel+Warehousing];[Building+dashboards+and+data+solutions]" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=700&lines=Data+Analyst+|+Business+Intelligence+Analyst;SQL+%7C+Power+BI+%7C+Excel;Business+Intelligence+%7C+Data+Warehousing;Turning+raw+data+into+clear+business+insight" alt="Typing SVG" />
 </div>
 
-<!-- 🔗 Update these links with your own social media and contact information -->
 <p align="center">
-  <a href="https://linkedin.com/in/erwin-glenn-capitan-ii/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="mailto:your.glcapitan007@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
+  <a href="https://linkedin.com/in/erwin-glenn-capitan-ii/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="mailto:glcapitan007@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail">
+  </a>
 </p>
 
-## 🚀 About Me 
-I'm a data analyst passionate about helping businesses make sense of their data. I enjoy transforming complex, messy datasets into clear stories and actionable insights.
+---
 
-My focus is on building dashboards that get used, automating repetitive tasks to free up teams for more interesting problems, and creating models that help businesses plan for the future.
+## 🚀 About Me
 
-When I'm not working with data, I enjoy [Your Hobby or Passion, e.g., creating content, hiking, mentoring others, etc.]. I love the "aha!" moment when data reveals something new and useful.
+I’m a Data Analyst with hands-on experience in SQL, Excel, Power BI, and data warehousing. I build structured data solutions that help turn raw data into clear reporting, interactive dashboards, and actionable business insights.
 
-<!-- 🌐 Replace "your-username" with your actual GitHub username -->
-### [🏆 Check Out My Full Portfolio Website](https://your-username.github.io/)
-      
-## 🔭 What I'm Currently Working On 
+My work focuses on cleaning and transforming data, designing reporting workflows, and building analytics projects that support better decision-making. I enjoy solving messy data problems and turning them into outputs that are useful, readable, and business-ready.
 
-- **Project A:** [Brief, one-line description of a project, e.g., Building a sales forecasting model in Python.]  
-- **Project B:** [Brief, one-line description of another project, e.g., Creating an 
+I’m currently strengthening my skills in analytics engineering, data modeling, and end-to-end BI project development through portfolio projects and continuous learning.
 
-## 🌱 Currently Learning 
+---
 
-- [A new skill or technology you're exploring, e.g., Advanced machine learning techniques in Scikit-learn.]
-- [Another skill, e.g., Cloud data warehousing with Google BigQuery.]
+## 🔭 What I'm Working On
 
-## 🛠️ Technical Skillset
+- Building end-to-end analytics portfolio projects using **SQL, Power BI, Excel, and Python**
+- Building a stock price prediction using **Python Machine Learning**
+- Developing **data warehouse projects** with bronze, silver, and gold layer architecture
+- Improving dashboard design and business reporting for recruiter-ready case studies
+- Expanding my skills in **data modeling, automation, and advanced analytics**
 
-<!-- This section uses Shields.io badges. You can customize them or create your own!-->
+---
 
-#### Data Analysis & Visualization
+## 🌱 Currently Learning
+
+- IBM Python for Data Science, Ai & Development
+- Advanced SQL and data modeling
+- Data warehouse design and ETL workflows
+- Business intelligence best practices for reporting and dashboards
+
+---
+
+## 🛠️ Technical Skills
+
+### Data Analytics & BI
 <p>
-  <!-- 💡 Go to Shields.io to create your own badges -->
-  <img src="https://img.shields.io/badge/SQL-Advanced-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Skill Badge">
-  <img src="https://img.shields.io/badge/Power%20BI-Expert-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI Skill Badge">
-  <img src="https://img.shields.io/badge/Excel-Expert-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Skill Badge">
-  <img src="https://img.shields.io/badge/Tableau-Intermediate-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau Skill Badge">
+  <img src="https://img.shields.io/badge/SQL-Strong-4479A1?style=flat&logo=mysql&logoColor=white" alt="SQL Badge">
+  <img src="https://img.shields.io/badge/Power%20BI-Strong-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI Badge">
+  <img src="https://img.shields.io/badge/Excel-Strong-217346?style=flat&logo=microsoft-excel&logoColor=white" alt="Excel Badge">
+  <img src="https://img.shields.io/badge/Tableau-Working%20Knowledge-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau Badge">
 </p>
 
-#### Programming & Automation
+### Programming & Data Workflows
 <p>
-  <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=flat&logo=python&logoColor=white" alt="Python Skill Badge">
-  <img src="https://img.shields.io/badge/R-Beginner-276DC3?style=flat&logo=r&logoColor=white" alt="R Skill Badge">
+  <img src="https://img.shields.io/badge/Python-Learning-3776AB?style=flat&logo=python&logoColor=white" alt="Python Badge">
+  <img src="https://img.shields.io/badge/Data%20Cleaning-Hands--On-5C6BC0?style=flat" alt="Data Cleaning Badge">
+  <img src="https://img.shields.io/badge/ETL-Hands--On-00897B?style=flat" alt="ETL Badge">
+  <img src="https://img.shields.io/badge/Data%20Modeling-Developing-8E24AA?style=flat" alt="Data Modeling Badge">
 </p>
 
-#### Business Intelligence & Analytics
+### Business Focus
 <p>
-  <img src="https://img.shields.io/badge/A%2FB%20Testing-Experienced-FF6B6B?style=flat" alt="A/B Testing Skill Badge">
-  <img src="https://img.shields.io/badge/Statistical%20Analysis-Experienced-4ECDC4?style=flat" alt="Statistical Analysis Skill Badge">
-  <img src="https://img.shields.io/badge/Predictive%20Modeling-Intermediate-45B7D1?style=flat" alt="Predictive Modeling Skill Badge">
-  <img src="https://img.shields.io/badge/KPI%20Development-Expert-96CEB4?style=flat" alt="KPI Development Skill Badge">
+  <img src="https://img.shields.io/badge/Dashboarding-Business%20Focused-1E88E5?style=flat" alt="Dashboarding Badge">
+  <img src="https://img.shields.io/badge/Reporting-Decision%20Support-43A047?style=flat" alt="Reporting Badge">
+  <img src="https://img.shields.io/badge/KPIs-Performance%20Tracking-F4511E?style=flat" alt="KPI Badge">
+  <img src="https://img.shields.io/badge/Data%20Warehousing-Project%20Based-6D4C41?style=flat" alt="Data Warehousing Badge">
+</p>
+
+---
+
+## 📂 Featured Projects
+
+- **SQL Data Warehouse Project**  
+  Designed a structured warehouse workflow using layered data architecture for cleaner reporting and analytics.
+
+- **Sales / Business Dashboard Projects**  
+  Built dashboards and reporting views that transform raw datasets into clear visual insights for decision-making.
+
+- **Excel Analytics Projects**  
+  Performed cleaning, lookup logic, KPI tracking, and reporting to support practical business analysis.
+
+---
+
+## 🎯 Career Focus
+
+I’m focused on opportunities in **Data Analytics**, **Business Intelligence**, and **Data Warehousing**, where I can contribute through reporting, dashboarding, SQL analysis, and structured data solutions.
+
+---
+
+## 📫 Let's Connect
+
+<p align="center">
+  <a href="https://linkedin.com/in/erwin-glenn-capitan-ii/">
+    <img src="https://img.shields.io/badge/LinkedIn-Erwin%20Glenn%20Capitan%20II-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="mailto:glcapitan007@gmail.com">
+    <img src="https://img.shields.io/badge/Email-glcapitan007%40gmail.com-green?style=for-the-badge&logo=gmail">
+  </a>
 </p>
