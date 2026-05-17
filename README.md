@@ -37,7 +37,7 @@ I’m currently strengthening my skills in analytics engineering, data modeling,
 
 ## 🌱 Currently Learning
 
-- IBM Python for Data Science, Ai & Development
+- IBM Data Science, Ai & Development
 - Big data
 - Business intelligence best practices for reporting and dashboards
 
