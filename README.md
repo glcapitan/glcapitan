@@ -1,7 +1,7 @@
 ## Hi there, I'm Erwin Glenn 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=720&lines=Data+Analyst+%7C+Business+Intelligence+Developer;SQL+%7C+Power+BI+%7C+PostgreSQL+%7C+Python;Azure+Data+Factory+%7C+Databricks+%7C+Delta+Lake;Star-schema+modeling+%7C+DAX+%7C+Slowly+changing+dimensions;Turning+6M%2B+rows+into+decision-ready+dashboards" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=720&lines=Data+Analyst+%7C+Business+Intelligence+Developer;SQL+%7C+Power+BI+%7C+PostgreSQL+%7C+Python;Azure+Data+Factory+%7C+Databricks+%7C+Microsoft+Fabric;Star-schema+modeling+%7C+DAX+%7C+Slowly+changing+dimensions;Turning+6M%2B+rows+into+decision-ready+dashboards" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 I'm a Data / Business Intelligence Analyst who builds **end-to-end analytics solutions** — from cloud data pipelines and SQL modeling through to interactive dashboards that drive decisions. I design star schemas, write performance-minded DAX and SQL, and turn large, messy datasets into reporting that's clean, trustworthy, and business-ready.
 
-My portfolio spans **Azure data engineering** (incremental ELT with Data Factory, a medallion lakehouse on Databricks, SCD Type 2 dimensions), **Power BI & SQL** (star-schema semantic models, performance-minded DAX, dashboard design), **PostgreSQL & Python** (a fraud-analytics app on a 6.3M+ row dataset), and **Excel FP&A** (Power Query → Power Pivot → DAX, time-intelligence and budget-vs-actual reporting). I care about the unglamorous parts that make BI trustworthy — idempotent ETL, grain integrity, and numbers that reconcile end to end.
+My portfolio spans **cloud data engineering** on both **Azure** (incremental ELT with Data Factory, a Databricks lakehouse, SCD Type 2 dimensions) and **Microsoft Fabric** (metadata-driven pipelines, T-SQL warehouse transformations, semantic models), alongside **Power BI & SQL** (star-schema semantic models, performance-minded DAX), **PostgreSQL & Python** (a fraud-analytics app on a 6.3M+ row dataset), and **Excel FP&A** (Power Query → Power Pivot → DAX). I care about the unglamorous parts that make BI trustworthy — idempotent ETL, grain integrity, and numbers that reconcile end to end.
 
 ---
 
@@ -28,6 +28,10 @@ My portfolio spans **Azure data engineering** (incremental ELT with Data Factory
 ### ☁️ [Azure Incremental Lakehouse](https://github.com/glcapitan/azureproject) — *ADF + Databricks + Delta Live Tables*
 An end-to-end Azure data platform: **watermark-driven incremental extraction** from Azure SQL into a medallion lakehouse on **ADLS Gen2**, governed by **Unity Catalog** with managed-identity access — no keys or SAS tokens in code. A single **metadata-driven ADF pipeline** loads five tables by iterating a JSON parameter array, with a conditional branch that cleans up the empty files ADF writes on no-op runs. **Auto Loader** streams bronze → silver; **Delta Live Tables** builds a star schema with **SCD Type 2** dimensions so a stream event joins to whichever subscription tier a user held *at the time*. Validated rather than assumed: 509 gold rows resolving to 500 current + 9 superseded versions, with an integrity check confirming exactly one open row per key.
 <br>`Azure Data Factory` · `Databricks` · `Delta Live Tables` · `Unity Catalog` · `PySpark` · `Delta Lake` · `SCD Type 2`
+
+### 🚕 [NYC Taxi Analytics Platform](https://github.com/glcapitan/microsoft-fabric-nyc-taxi-analytics) — *Microsoft Fabric*
+A governed analytics platform for a city transportation authority, built entirely on **Microsoft Fabric**: monthly parquet files land in a Lakehouse, **metadata-driven pipelines** load a Warehouse staging schema one month at a time, and **T-SQL stored procedures** transform and append into a historical presentation table feeding a semantic model and Power BI report. A `processing_log` watermark makes each run self-managing — no parameters to edit, no double-processing. The transformation was built **both as a Dataflow Gen2 and as a stored procedure**, and the measured comparison drove the final design: presentation processing dropped from ~2–3 minutes to ~30 seconds.
+<br>`Microsoft Fabric` · `OneLake` · `T-SQL` · `Data Pipelines` · `Semantic Model` · `Power BI`
 
 ### 💳 [Fintech Fraud Analytics Dashboard](https://github.com/glcapitan/fintech-analytics) — *Streamlit + PostgreSQL*
 A BI dashboard on **6.3M+ PaySim transactions**, built around one mandate: cut fraud-investigation false positives without losing catch rate. The headline finding — a single high-precision rule catches **76% of all fraud at 97% precision**, while a second noisy signal inflates flagged volume to 2.5M at near-zero precision — became a concrete recommendation to drop the diluting signal. **[Live dashboard ↗](https://fintech-analytics-ajjjr7c7hzkzkutu9cefgu.streamlit.app)**
@@ -61,43 +65,39 @@ Two linked **Tableau** dashboards (Sales + Customer) on **9,994 retail transacti
 
 ### Data Analytics & BI
 <p>
-  <img src="https://img.shields.io/badge/SQL-Strong-4479A1?style=flat&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20BI-Strong-F2C811?style=flat&logo=powerbi&logoColor=black">
-  <img src="https://img.shields.io/badge/DAX-Hands--On-F2C811?style=flat&logo=powerbi&logoColor=black">
-  <img src="https://img.shields.io/badge/Excel-Strong-217346?style=flat&logo=microsoft-excel&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20Query-Hands--On-217346?style=flat&logo=microsoft-excel&logoColor=white">
-  <img src="https://img.shields.io/badge/Power%20Pivot-Hands--On-1F3864?style=flat&logo=microsoft-excel&logoColor=white">
-  <img src="https://img.shields.io/badge/Tableau-Hands--On-E97627?style=flat&logo=tableau&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-2E3440?style=flat">
+  <img src="https://img.shields.io/badge/Power%20BI-2E3440?style=flat&logo=powerbi&logoColor=F2C811">
+  <img src="https://img.shields.io/badge/DAX-2E3440?style=flat&logo=powerbi&logoColor=F2C811">
+  <img src="https://img.shields.io/badge/Excel-2E3440?style=flat&logo=microsoftexcel&logoColor=217346">
+  <img src="https://img.shields.io/badge/Tableau-2E3440?style=flat&logo=tableau&logoColor=E97627">
 </p>
 
 ### Cloud & Data Engineering
 <p>
-  <img src="https://img.shields.io/badge/Azure%20Data%20Factory-Project%20Based-0078D4?style=flat&logo=microsoftazure&logoColor=white">
-  <img src="https://img.shields.io/badge/Databricks-Project%20Based-FF3621?style=flat&logo=databricks&logoColor=white">
-  <img src="https://img.shields.io/badge/Delta%20Lake-Project%20Based-00ADD4?style=flat&logo=delta&logoColor=white">
-  <img src="https://img.shields.io/badge/PySpark-Project%20Based-E25A1C?style=flat&logo=apachespark&logoColor=white">
-  <img src="https://img.shields.io/badge/Unity%20Catalog-Project%20Based-FF3621?style=flat&logo=databricks&logoColor=white">
-  <img src="https://img.shields.io/badge/ADLS%20Gen2-Project%20Based-0078D4?style=flat&logo=microsoftazure&logoColor=white">
+  <img src="https://img.shields.io/badge/Azure%20Data%20Factory-2E3440?style=flat&logo=microsoftazure&logoColor=0078D4">
+  <img src="https://img.shields.io/badge/Microsoft%20Fabric-2E3440?style=flat&logo=microsoft&logoColor=0078D4">
+  <img src="https://img.shields.io/badge/Databricks-2E3440?style=flat&logo=databricks&logoColor=FF3621">
+  <img src="https://img.shields.io/badge/Delta%20Lake-2E3440?style=flat">
+  <img src="https://img.shields.io/badge/PySpark-2E3440?style=flat&logo=apachespark&logoColor=E25A1C">
+  <img src="https://img.shields.io/badge/dbt-2E3440?style=flat&logo=dbt&logoColor=FF694B">
+  <img src="https://img.shields.io/badge/Snowflake-2E3440?style=flat&logo=snowflake&logoColor=29B5E8">
 </p>
 
 ### Programming & Databases
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-Hands--On-4169E1?style=flat&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-Hands--On-3776AB?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-Hands--On-FF4B4B?style=flat&logo=streamlit&logoColor=white">
-  <img src="https://img.shields.io/badge/DuckDB-Project%20Based-FFF000?style=flat&logo=duckdb&logoColor=black">
-  <img src="https://img.shields.io/badge/ETL%20%2F%20ELT-Hands--On-00897B?style=flat">
+  <img src="https://img.shields.io/badge/Python-2E3440?style=flat&logo=python&logoColor=3776AB">
+  <img src="https://img.shields.io/badge/T--SQL-2E3440?style=flat&logo=microsoftsqlserver&logoColor=CC2927">
+  <img src="https://img.shields.io/badge/PostgreSQL-2E3440?style=flat&logo=postgresql&logoColor=4169E1">
+  <img src="https://img.shields.io/badge/Git-2E3440?style=flat&logo=git&logoColor=F05032">
 </p>
 
-### Modeling & Business Focus
+### Modeling & Data Design
 <p>
-  <img src="https://img.shields.io/badge/Star%20Schema-Data%20Modeling-8E24AA?style=flat">
-  <img src="https://img.shields.io/badge/Slowly%20Changing%20Dimensions-Type%201%20%26%202-8E24AA?style=flat">
-  <img src="https://img.shields.io/badge/Data%20Warehousing-Medallion-6D4C41?style=flat">
-  <img src="https://img.shields.io/badge/Incremental%20Loading-Watermark%20Based-6D4C41?style=flat">
-  <img src="https://img.shields.io/badge/Financial%20Reporting-Variance%20%26%20Margin-455A64?style=flat">
-  <img src="https://img.shields.io/badge/Dashboarding-Business%20Focused-1E88E5?style=flat">
-  <img src="https://img.shields.io/badge/KPIs-Decision%20Support-F4511E?style=flat">
+  <img src="https://img.shields.io/badge/Dimensional%20Modeling-8E24AA?style=flat">
+  <img src="https://img.shields.io/badge/Slowly%20Changing%20Dimensions-8E24AA?style=flat">
+  <img src="https://img.shields.io/badge/Medallion%20Architecture-8E24AA?style=flat">
+  <img src="https://img.shields.io/badge/Incremental%20Loading-8E24AA?style=flat">
+  <img src="https://img.shields.io/badge/Data%20Quality%20%26%20Validation-8E24AA?style=flat">
 </p>
 
 ---
